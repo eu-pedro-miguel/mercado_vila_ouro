@@ -67,10 +67,25 @@
             <div class="row my-2 g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
+                        <a href="#" onclick="event.preventDefault(); openImageModal('imagem/mercado_vila_ouro.png')">
+                            <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="Bolacha Bono">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Bolacha Bono</h5>
+                            <p class="card-text text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
+                            <button type="button" class="btn btn-primary w-100 mt-2" onclick="openImageModal('imagem/mercado_vila_ouro.png')">
+                                Ver Imagem Grande
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="css-card-titulo card-title text-center text-2xl text-dark fw-bold">Bolacha Bono</h5>
-                            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Desodorante Rexona</h5>
+                            <p class="card-tex text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
@@ -79,18 +94,8 @@
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title css-card-titulo text-center text-2xl text-dark fw-bold">Desodorante Rexona</h5>
-                            <p class="card-tex text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
-                        <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center text-2xl text-dark fw-bold">Refrigerante Coca Cola</h5>
-                            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Refrigerante Coca Cola</h5>
+                            <p class="card-text text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
@@ -103,8 +108,8 @@
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="css-card-titulo card-title text-center text-2xl text-dark fw-bold">Bolacha Bono</h5>
-                            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Bolacha Bono</h5>
+                            <p class="card-text text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
@@ -113,8 +118,8 @@
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title css-card-titulo text-center text-2xl text-dark fw-bold">Desodorante Rexona</h5>
-                            <p class="card-tex text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Desodorante Rexona</h5>
+                            <p class="card-tex text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
@@ -123,8 +128,8 @@
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center text-2xl text-dark fw-bold">Refrigerante Coca Cola</h5>
-                            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Refrigerante Coca Cola</h5>
+                            <p class="card-text text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
@@ -137,8 +142,8 @@
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="css-card-titulo card-title text-center text-2xl text-dark fw-bold">Bolacha Bono</h5>
-                            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Bolacha Bono</h5>
+                            <p class="card-text text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
@@ -147,8 +152,8 @@
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title css-card-titulo text-center text-2xl text-dark fw-bold">Desodorante Rexona</h5>
-                            <p class="card-tex text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Desodorante Rexona</h5>
+                            <p class="card-tex text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
@@ -157,12 +162,26 @@
                     <div class="card w-100 bg-yellow-300 border-0 transition transform hover:bg-yellow-400 transition transform hover:scale-105">
                         <img src="imagem/mercado_vila_ouro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center text-2xl text-dark fw-bold">Refrigerante Coca Cola</h5>
-                            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Refrigerante Coca Cola</h5>
+                            <p class="card-text text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                             <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content bg-transparent border-0">
+            <div class="modal-header border-0">
+                <!-- Botão de fechar o modal -->
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <!-- A imagem será carregada aqui via JavaScript -->
+                <img src="imagem/mercado_vila_ouro.png" class="img-fluid w-100" id="modalImageSource" alt="Imagem Ampliada">
+            </div>
             </div>
         </div>
     </div>
@@ -188,6 +207,20 @@
         document.documentElement.setAttribute("data-bs-theme", newTheme);
         localStorage.setItem("theme", newTheme);
     }
+
+    function openImageModal(imageSrc) {
+            // 1. Encontra o elemento da imagem dentro do modal pelo ID
+            var modalImage = document.getElementById('modalImageSource');
+            
+            // 2. Define o atributo 'src' da imagem com o caminho passado para a função
+            modalImage.src = imageSrc;
+            
+            // 3. Cria uma instância do objeto Modal do Bootstrap
+            var imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+            
+            // 4. Abre o modal
+            imageModal.show();
+        }
 </script>
 </body>
 </html>
