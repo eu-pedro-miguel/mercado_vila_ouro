@@ -73,10 +73,18 @@
                         <div class="card-body">
                             <h5 class="card-title text-center text-2xl text-dark fw-bold line-clamp-1">Bolacha Bono</h5>
                             <p class="card-text text-dark line-clamp-2 small">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-warning border-dark text-dark flex justify-center mt-2 hover:underline">Saber mais</a>
-                            <button type="button" class="btn btn-primary w-100 mt-2" onclick="openImageModal('imagem/mercado_vila_ouro.png')">
-                                Ver Imagem Grande
-                            </button>
+                            <div class="container">
+                                <div class="row g-1">
+                                    <div class="col-9">
+                                        <a href="#" class="btn btn-warning border-dark border-2 text-dark flex justify-center mt-2 hover:underline">Saber mais</a>                                    
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-dark border-warning border-2 mt-2" onclick="openImageModal('imagem/mercado_vila_ouro.png')">
+                                            <i class="bi bi-arrows-fullscreen text-warning"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
