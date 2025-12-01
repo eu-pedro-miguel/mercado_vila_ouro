@@ -4,9 +4,9 @@
 }
 </style>
 
-<div class="d-flex justify-content-center align-items-center mb-2">
+<div class="d-flex justify-content-center align-items-center mb-3">
         <div id="carouselExampleIndicators" class="carousel slide w-100 mx-5 rounded-bottom border-4 border-top-0 border-yellow-200" data-bs-ride="carousel" data-bs-interval="3000" style="height: 18rem;">
-            <div class="carousel-indicators">
+            <div class="carousel-indicators m-0 p-0">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-light rounded-circle p-0" aria-current="true" aria-label="Slide 1" style="width: 10px; height: 10px;"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-light rounded-circle p-0" aria-label="Slide 2" style="width: 10px; height: 10px;"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-light rounded-circle p-0" aria-label="Slide 3" style="width: 10px; height: 10px;"></button>
@@ -17,8 +17,8 @@
                         <source media="(max-width: 798px)" srcset="imagem/bolacha_bono_mobile.png">
                         <img src="imagem/bolacha_bono.png" class="d-block w-100" alt="">
                     </picture>
-                    <div class="carousel-caption mb-2 d-flex justify-content-center">
-                        <h5 class="p-1 rounded-1 bg-black bg-opacity-50 border-0 text-white w-30">Bolacha Bono(Sabores)</h5>
+                    <div class="carousel-caption d-flex justify-content-center">
+                        <p class="p-1 rounded-1 text-1xl bg-black bg-opacity-50 border-0 text-white w-30">Bolacha Bono(Sabores)</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -27,8 +27,8 @@
                         <img src="imagem/salgadinho_cheetos.png" class="d-block w-100" alt="">
                     </picture>
 
-                    <div class="carousel-caption mb-2 d-flex justify-content-center">
-                        <h5 class="p-1 rounded-1 bg-black bg-opacity-50 border-0 text-white w-30">Salgadinho Cheetos(Sabores)</h5>
+                    <div class="carousel-caption d-flex justify-content-center">
+                        <p class="p-1 rounded-1 text-1xl bg-black bg-opacity-50 border-0 text-white w-30">Salgadinho Cheetos(Sabores)</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -37,8 +37,8 @@
                         <img src="imagem/desodorante_rexona.png" class="d-block w-100" alt="">
                     </picture>
 
-                    <div class="carousel-caption mb-2 d-flex justify-content-center">
-                        <h5 class="p-1 rounded-1 bg-black bg-opacity-50 border-0 text-white w-30">Desodorante Rexona</h5>
+                    <div class="carousel-caption d-flex justify-content-center">
+                        <p class="p-1 rounded-1 text-1xl bg-black bg-opacity-50 border-0 text-white w-30">Desodorante Rexona</p>
                     </div>
                 </div>
 
